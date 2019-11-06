@@ -34,12 +34,6 @@ Clique aqui para ver o [vídeo](https://www.youtube.com/watch?v=GZiICLNDjCk).
 Clique aqui para executar o [Webapp](https://bevel-cyclamen.glitch.me/).
 
 
-Your Project
-------------
-### ← index.html
-
-Where you'll write the content of your website. 
-
--------------------
-
 \ ゜o゜)ノ
+------------
+[link para o glitch](https://glitch.com/~fercaupau-ihc) 
