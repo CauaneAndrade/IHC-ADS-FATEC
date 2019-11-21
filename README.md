@@ -22,8 +22,8 @@ com auxilio da realidade aumentada**
 
 Você precisa projetar a câmera sobre estes marcadores:
 
-Marcador da furadeira: ![Drag Racing](https://raw.githubusercontent.com/CauaneAndrade/IHC-fatec/master/pattern-furadeiraPat2.png)
-Marcador da stopdrill: ![Drag Racing](https://github.com/CauaneAndrade/IHC-fatec/blob/master/pattern-stop-drill-final.png)
+Marcador da furadeira: ![Drag Racing](https://www.dropbox.com/s/ysgafh5a5bjwuu8/pattern-drilling-machine-final.png?dl=0)
+Marcador da stopdrill: ![Drag Racing](https://www.dropbox.com/s/nz944so4ok0568v/pattern-stop-drill-final.png?dl=0)
 
 ### ← Veja um vídeo breve de como executar a aplicação 
 
