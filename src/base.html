@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latécoère Brasil</title>
+    <link rel="stylesheet" type="text/css" href="airplane-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="frame">
+        <div class="plane-container">
+        <a href="http://customer.io/" target="_blank">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="1131.53px" height="379.304px" viewBox="0 0 1131.53 379.304" enable-background="new 0 0 1131.53 379.304"
+        xml:space="preserve" class="plane">
+        <polygon fill="#D8D8D8" points="72.008,0 274.113,140.173 274.113,301.804 390.796,221.102 601.682,367.302 1131.53,0.223  "/>
+        <polygon fill="#C4C4C3" points="1131.53,0.223 274.113,140.173 274.113,301.804 390.796,221.102   "/>
+        </svg></a>
+        </div>
+    </div>
+    
+    <div id="menu">
+        <!-- Documentação -->
+        <div id="doc">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDocumentation" aria-expanded="false" aria-controls="collapseDocumentation">
+                Sobre o projeto
+            </button>
+        </div>
+        <div id="collapseDocumentation" class="collapse show" aria-labelledby="headingOne">
+          <div class="card card-body">
+            <h2>
+                Projeto de Realidade Aumentada para auxiliar, no ramo da educação industrial, o trabalho manual de furar chapas de metal
+            </h2>
+            <hr>
+            <b>
+                Projeto realizado na disciplina Interação Humano Computador pela <br>Faculdade de Tecnologia de São José dos Campos.
+            </b>
+            <b>
+                Autores:
+            </b>
+            <ul>
+                <li>Cauane Andrade dos Santos</li>
+                <li>José Fernando Neves</li>
+                <li>Paulo Henrique Ribeiro Lourenço</li>
+            </ul>
+            <b>Sob orientação do Professor Giuliano Bertoti</b>
+          </div>
+        </div>
+        <!-- Button trigger modal -->
+        <div id="stopdrill" class="card-img-top">
+            <div class="col py-3 px-md-5 border bg-light">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalStopDrill">
+                  Visualizar marcador do Stop Drill
+                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalDrillMachine">
+                  Visualizar marcador da Furadeira
+                </button>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalStopDrill" tabindex="-1" role="dialog" aria-labelledby="ModalStopDrillTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                STOP DRILL
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="https://raw.githubusercontent.com/CauaneAndrade/IHC-ADS-FATEC/master/Markers/pattern-stop-drill-final.png" width="320" height="320">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="ModalDrillMachine" tabindex="-1" role="dialog" aria-labelledby="ModalDrillMachineTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                FURADEIRA
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="https://raw.githubusercontent.com/CauaneAndrade/IHC-ADS-FATEC/master/Markers/pattern-drilling-machine-final.png" width="320" height="320">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stopdrill -->
+        <div id="stopdrill" class="card-img-top">
+            <div class="col py-3 px-md-5 border bg-light">
+                <h3>Stop Drill</h3>
+                <img src="https://raw.githubusercontent.com/CauaneAndrade/IHC-ADS-FATEC/master/Markers/qrcode-stop-drill.png" width="280" height="310" data-toggle="tooltip" data-placement="top" title="Stop Drill">
+            </div>
+        </div>
+
+        <!-- DrillingMachine -->
+        <div id="drill" class="card-img-top">
+            <div class="col py-3 px-md-5 border bg-light">
+                <h3>Furadeira</h3>
+                <img src="https://raw.githubusercontent.com/CauaneAndrade/IHC-ADS-FATEC/master/Markers/qrcode-drilling-machine.png" width="280" height="310" data-toggle="tooltip" data-placement="right" title="Drilling Machine">
+            </div>
+        </div>
+
+        <!-- QRCode to glitch -->
+        <div id="web-app" class="card-img-top">
+            <div class="col py-3 px-md-5 border bg-light">
+                <h3 >Webapp</h3>
+                <a href="https://fercaupau-ihc.glitch.me/"><img src="https://raw.githubusercontent.com/CauaneAndrade/IHC-ADS-FATEC/master/Markers/qrcode-webapp.png"></a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
